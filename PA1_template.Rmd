@@ -132,12 +132,12 @@ After filling in the missing values, the **median** of the total number of steps
 
 The **mean** of the total number of steps taken daily is `r daily_mean2`.
 
-Compared, to the original dataset, there is very little change to the daily mean or median. However, the two histograms show that after imputing missing values, the relative frequency of the days when the number of steps is closely around the average is higher.
+Compared to the original dataset, there is very little change to the daily mean or median. However, the two histograms show that after imputing missing values, the relative frequency of the days when the number of steps is closely around the average is higher.
 
 Are there differences in activity patterns between weekdays and weekends?
 ------------------
 
-To examine differences between the activities on weekdays and weekends, a panel plot separating the activities was prepared: two time series plot of the 5-minute intervals (x-axis) and the average number of steps taken, averaged across all days (y-axis) were made.
+To examine differences between the activities on weekdays and weekends, a panel plot separating the activities was prepared: two time series plots of the 5-minute intervals (x-axis) and the average number of steps taken, averaged across all days (y-axis) were made.
 
 ```{r, echo=TRUE}
 daily_pattern2 <- tbl_df(activity_filled)
